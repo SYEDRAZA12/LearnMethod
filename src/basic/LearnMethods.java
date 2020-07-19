@@ -41,12 +41,14 @@ public class LearnMethods {
 
     public static void main(String[] args) {
         LearnMethods obj = new LearnMethods();
-        obj.doSum();
-        obj.dosub(7, 5);
-        obj.doMulty(5, 10);
-        obj.doDiv();
-        String z=obj.doDiv();
-        System.out.println(z);
+        //obj.doSum();
+       // obj.dosub(7, 5);
+        //obj.doMulty(5, 10);
+        //obj.doDiv();
+       // String z=obj.doDiv();
+       // System.out.println(z);
+        int multyPlication  = obj.doMulty(6,10);
+        System.out.println("My last multyplaction is "+ multyPlication);
 
     }
 
