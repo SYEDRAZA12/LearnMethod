@@ -36,6 +36,8 @@ public class Testbank {
         System.out.println("Number of Branches "+fc.numberOfBranches);
 
         System.out.println("=========CBC BANK==================");
+        System.out.println("Number of Branches "+fc.numberOfBranches);
+
         CBCBank cb = new HSBCBank();
 
         cb.studentLoan();
