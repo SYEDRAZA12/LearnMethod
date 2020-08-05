@@ -14,6 +14,12 @@ public class LearnMethods {
         System.out.println("This is my non return type non parameter method");
     }
 //None Return with Parameter
+
+    /**
+     *
+     * @param a
+     * @param b
+     */
     public void dosub(int a, int b) {
 
         int sub = a - b;
